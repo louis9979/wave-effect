@@ -1,0 +1,30 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  background-color: rgba(236, 236, 236, 1);
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+}
+
+.wave {
+  position: relative;
+  width: 500px;
+  height: 500px;
+}
+
+h2 {
+  position: absolute;
+  text-align: center;
+  line-height: 500px;
+  font-size: 170px;
+  text-transform: uppercase;
+}
