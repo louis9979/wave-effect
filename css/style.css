@@ -27,10 +27,10 @@ body {
       color: #7efff5; }
     .wave-heading:nth-child(2) {
       color: #0c0a7e;
-      animation: wave 4s ease-in-out infinite; }
+      animation: wave 3.4s ease-in-out infinite; }
     .wave-heading:nth-child(3) {
       color: #141361;
-      animation: wave-2 4.5s ease-in-out infinite; }
+      animation: wave-2 4.9s ease-in-out infinite; }
 
 @keyframes wave {
   0%,
