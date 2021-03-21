@@ -17,10 +17,22 @@ body {
   position: relative;
   width: 500px;
   height: 500px; }
+  .wave-heading {
+    position: absolute;
+    text-align: center;
+    line-height: 500px;
+    font-size: 170px;
+    text-transform: uppercase; }
+    .wave-heading:nth-child(1) {
+      color: #7efff5; }
+    .wave-heading:nth-child(2) {
+      color: #0c0a7e;
+      animation: wave 2s ease-in-out infinite; }
 
-h2 {
-  position: absolute;
-  text-align: center;
-  line-height: 500px;
-  font-size: 170px;
-  text-transform: uppercase; }
+@keyframes wave {
+  0% {
+    clip-path: polygon(0 100%, 0 55%, 5% 52%, 10% 49%, 16% 46%, 21% 45%, 29% 44%, 36% 45%, 46% 48%, 51% 50%, 56% 53%, 63% 57%, 71% 62%, 79% 64%, 86% 63%, 92% 61%, 95% 56%, 99% 52%, 100% 100%); }
+  50% {
+    clip-path: polygon(0 100%, 0 55%, 5% 58%, 10% 60%, 17% 63%, 24% 64%, 32% 62%, 39% 59%, 46% 56%, 55% 48%, 60% 43%, 64% 39%, 70% 37%, 78% 37%, 85% 39%, 90% 42%, 95% 46%, 100% 50%, 100% 100%); }
+  100% {
+    clip-path: polygon(0 100%, 0 55%, 5% 52%, 10% 49%, 16% 46%, 21% 45%, 29% 44%, 36% 45%, 46% 48%, 51% 50%, 56% 53%, 63% 57%, 71% 62%, 79% 64%, 86% 63%, 92% 61%, 95% 56%, 99% 52%, 100% 100%); } }
